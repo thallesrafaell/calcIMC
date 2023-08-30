@@ -10,11 +10,11 @@
 <body>
     <section>
         <img src="assets/images/imgcalc.png" alt="Vetor Homem na Balança">
-        <form action="">
+        <form id="form1">
             <div class="form1">
                 <h2>Calculadora de IMC</h2>
-                <input class="number" type="number" name="altura" id="altura" placeholder="Altura" required>
-                <input class="number" type="number" name="peso" id="peso" placeholder="Peso" required>
+                <input class="number" type="number" step="0.01" name="altura" id="altura" placeholder="Altura" required>
+                <input class="number" type="number" step="0.01" name="peso" id="peso" placeholder="Peso" required>
                 <p>
                     <input type="radio" name="radsex" id="masc" required>Masculino
                     <input type="radio" name="radsex" id="fem" required>Feminino
@@ -27,8 +27,8 @@
                 <P>Seu IMC e de 17,50 você esta abaixo do peso incado como saudabel para seu peso e altura.</P>
             </div>
         </form>
-        
     </section>
+    <script src="assets/javaScript/main.js"></script>
     
 </body>
 </html>
