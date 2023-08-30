@@ -1,0 +1,41 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section img{
+        width: 50%;
+    }
+
+    form{
+        margin: 20px;
+        width: 50%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    section{
+        max-width: 1280px;
+        margin: 0px auto;
+    }
+    section img {
+        width: 50%;
+
+    }
+
+    form{
+        justify-content: left;
+        align-items: left;
+        width: 50%;
+    }
+
+    .res p{
+        text-align: justify;
+    }
+}
