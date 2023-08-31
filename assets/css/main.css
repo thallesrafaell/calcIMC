@@ -96,7 +96,7 @@ form p{
     transition: ease-in;
     transition: .4s;
 }
-.res{
+#dres{
     max-width: 280px;
     display: flex;
     flex-direction: column;
@@ -110,16 +110,21 @@ form p{
     padding: 8px;
 }
 
-.res h3{
+#res h3{
     color: #5e5c58;
 
 }
 
-.res img{
+#dres img{
     width: 100px;
 }
 
 section img{
     width: 50%;
     margin-top: 20px;
+}
+footer {
+    max-width: 90vw ;
+    color: white;
+    text-align: center;
 }
